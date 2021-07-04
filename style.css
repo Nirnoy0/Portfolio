@@ -8,10 +8,10 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-div{
-    width: 50%;
-    
+    width: 50%;    
     padding-left: 5%;
     padding-top: 5%;
 }
@@ -31,4 +31,9 @@ section{
 .top-banner{
     background-image: url(/Images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-banner{
+    background-image: url(/Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
