@@ -2,11 +2,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.h1{
+    font-size: 30px ;
+}
 .orange{
-    font-size: 40px;
+    font-size: 50px;
     color: orange;
 }
-section{
+.felx{
     display: flex;
     margin-bottom: 100px;
 }
@@ -31,19 +34,65 @@ section{
 .top-banner{
     background-image: url(Images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 100px;
 }
 .second-banner{
     background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
 }
 .Paragraph{
     padding-right: 25%;
 }
 .expriences{
-
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
 }
 .color2{
-    color: orangered;
+    color: rgba(224, 145, 79, 0.89);
     size: 5px;
+}
+.e1{
+    font-size: 42px;
+    margin-left: 90px;
+    margin-right: 77%;
+    margin-bottom: 0%;
+    border-bottom: salmon solid 9px;
+    border-left: salmon solid 9px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    color: steelblue;
+    
+}
+.page3{
+    margin-right: 20px;
+    padding-right: 60px;
+    padding-bottom: 3%;
+}
+.half-div3{
+    width: 50%;    
+    padding-left: 5%;
+    padding-top: 1%;
+    box-shadow: 10px 10px 60px gray;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+#id1{
+    border-left: 8px solid skyblue;
+    border-radius: 20%;
+}
+#id2{
+    border-left: 8px solid lightgreen;
+    border-radius: 20%;
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
 }
